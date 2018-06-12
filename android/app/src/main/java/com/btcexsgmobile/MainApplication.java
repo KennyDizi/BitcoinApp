@@ -1,7 +1,6 @@
-package com.btcexsgmobile;
+package ch.btcex.bitcoinapp;
 
 import android.app.Application;
-
 import com.facebook.react.ReactApplication;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import com.facebook.react.ReactNativeHost;

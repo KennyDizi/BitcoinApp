@@ -1,4 +1,4 @@
-package com.btcexsgmobile;
+package ch.btcex.bitcoinapp;
 
 import org.devio.rn.splashscreen.SplashScreen;
 import com.facebook.react.ReactActivity;
