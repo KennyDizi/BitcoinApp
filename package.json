@@ -9,7 +9,8 @@
   "dependencies": {
     "react": "16.4.0",
     "react-native": "0.55.4",
-    "react-native-maps": "^0.21.0"
+    "react-native-maps": "^0.21.0",
+    "react-native-splash-screen": "^3.0.7"
   },
   "devDependencies": {
     "babel-jest": "23.0.1",

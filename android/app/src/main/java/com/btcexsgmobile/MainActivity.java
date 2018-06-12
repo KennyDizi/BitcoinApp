@@ -1,6 +1,8 @@
 package com.btcexsgmobile;
 
+import org.devio.rn.splashscreen.SplashScreen;
 import com.facebook.react.ReactActivity;
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +13,11 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "BtcExSGMobile";
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        SplashScreen.show(this);  // splash screen here
+        super.onCreate(savedInstanceState);
     }
 }
